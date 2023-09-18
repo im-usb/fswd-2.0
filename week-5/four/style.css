@@ -1,0 +1,40 @@
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+  text-align: center;
+  background-color: #202020;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.offer {
+  background-color: #f75437;
+  padding: 10px 0;
+  position: sticky;
+  top: 0px;
+}
+
+.offer p {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.course-intro h1 {
+  color: #ff6600;
+}
+
+.course-intro img {
+  width: 60%;
+  border-radius: 20px;
+}
+
+p {
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+}
+
+.course-details h2 {
+  color: #ff6600;
+  text-align: left;
+}
