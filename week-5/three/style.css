@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 310px;
+  border: solid 1px #000;
+  margin: 5px;
+  text-align: center;
+}
+
+main img {
+  width: 200px;
+  margin: 5px;
+}
+
+.left {
+  float: left;
+  text-align: left;
+  margin: 0 0 0 5px;
+  max-width: 150px;
+}
+
+.left p:first-child {
+  margin: 0 0 20px;
+}
+
+.left p {
+  margin: 0 0 10px;
+  font-weight: bold;
+  color: blue;
+}
+
+.right {
+  text-align: left;
+}
+
+.right p {
+  margin: 0 0 10px;
+}
