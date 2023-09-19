@@ -4,6 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task-7</title>
+    <style>
+      header {
+        text-align: center;
+      }
+
+      main {
+        position: relative;
+      }
+
+      .card {
+        max-width: 240px;
+        padding: 10px 25px 25px;
+        text-align: center;
+        border: solid 2px #000;
+        border-radius: 5px;
+        position: absolute;
+      }
+
+      .card p {
+        font-size: 20px;
+      }
+
+      .card img {
+        width: 180px;
+        padding: 5px;
+        background-color: rgb(36, 36, 36);
+      }
+
+      .card-1 {
+        background-color: blue;
+      }
+
+      .card-2 {
+        background-color: green;
+        top: 20px;
+        left: 20px;
+      }
+
+      .card-3 {
+        background-color: yellow;
+        top: 40px;
+        left: 40px;
+      }
+
+      .card-1:hover,
+      .card-2:hover,
+      .card-3:hover {
+        z-index: 1;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -12,15 +62,24 @@
     <main>
       <div class="card card-1">
         <p>Card 1</p>
-        <img src="" alt="" />
+        <img
+          src="https://storage.googleapis.com/kagglesdsdata/datasets/1392907/2309103/Pokemon%20Dataset/abomasnow.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20230918%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230918T045014Z&X-Goog-Expires=345600&X-Goog-SignedHeaders=host&X-Goog-Signature=6da42753f19b06b0b9f2f0f5db140b145a7ee5fddc64d92214ffe76226e5983cfc9d6c7d8ccea7efdb11b355794b9450381832b276cfb9c1c93d8d3da7101b45b8cb7183621b2317c229f6a6c07af6a1608356f5a8c88f0f481a259419ec84a387dc56ee287df54643b2a3a963dd49fb807262d84e40aef32c32407e63f692fb90189c29f3bae9d60805fd8a1bfdb66472180106aa4b85cd6b364efcbb8acbeac5f536e78d5c750a87e40e817ec089697cfc93f5d150dd63ae95f19ec6b9a47593708ac6ffde48999b9920d86d5f5d04ebebaa5cb01c0e12a9bb99ff52942fcc3d03f4d0de3b264aa21f5243a85646193ec041bdfa2b910917a66f37c7d3c162"
+          alt=""
+        />
       </div>
       <div class="card card-2">
         <p>Card 2</p>
-        <img src="" alt="" />
+        <img
+          src="https://storage.googleapis.com/kagglesdsdata/datasets/1392907/2309103/Pokemon%20Dataset/aggron.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20230919%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230919T002724Z&X-Goog-Expires=345600&X-Goog-SignedHeaders=host&X-Goog-Signature=c4707633c3f48a56a4df335967450189b601c559c6c9b0d3835bbe9ae34b09af0d2c53317c140853a4c7e92e7ba794f64bc33e96443b6d8e84b61d6a381802aaa088144496216c0258f54c433d6051c64d02d09ad3766ad2956e3b02ae27e42e7f97de339c556b79fea8398053293ef18af00c2500943bf07de31d457e925316baa8dcdb9d2cde6870ee3f59d5e59c4d20c4cf50757c9ee0d2cc09c8f37126e983012b111c185f3d65afeafea04ba7074d77f2232ff7b37296ee0e6ab14d86d44d3496cc947abaff73733c4189c72232f00b8f74f97da5c7d352baa6d9058e81783dfeb2457110b5fb12b460f8196f979afc3a3be57646281a769e62d9532817"
+          alt=""
+        />
       </div>
       <div class="card card-3">
         <p>Card 3</p>
-        <img src="" alt="" />
+        <img
+          src="https://storage.googleapis.com/kagglesdsdata/datasets/1392907/2309103/Pokemon%20Dataset/amaura.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20230919%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230919T002724Z&X-Goog-Expires=345600&X-Goog-SignedHeaders=host&X-Goog-Signature=c80a37ee001027ea7241163c778e9172986c7593127c457f1ec52d711b3b35070be8f4c539f8b7d89a1a3c456a146e570e4d737cbd09e5ca3a1aa8facaf822a527115616d5d1fb877fcac92c1c91078317fecd72d9f08bb5492cf8c93cbc45412d04807b50c0aa395e1dbea551d73b4907686a818af0b307b5068ec525ef209f1f36d8cfada1442ad2c20ea3d6915a0f154637f7f9fcc0b95b5a064626c1d40ea2248837efb17aa90611d18fbe60bbbc912231fec8e3a091fadd90c3dc5922960ddea41aaae6534385ef15f4a96592af06b3b0971ba86925316240797890a1cbb863cb9c3981ac8dcc8b89553b2c46fa11e85d9b254f3537af7fe41d0ad67cf3"
+          alt=""
+        />
       </div>
     </main>
   </body>
