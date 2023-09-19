@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  position: relative;
+}
+
+main h1 {
+  margin: 0 0 20px 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+.desc p {
+  margin-bottom: 0;
+}
+
+.page-modal {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.page-modal form {
+  position: fixed;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+input {
+  display: block;
+  font-size: 15px;
+  outline: none;
+}
+
+input[type="email"],
+input[type="tel"] {
+  display: inline;
+  width: 49%;
+  border: none;
+  border-bottom: 1px solid;
+  padding: 10px 0;
+  margin: 0 0 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid;
+  margin: 0 0 20px;
+}
+
+input[type="email"] {
+  float: left;
+}
+
+input[type="tel"] {
+  float: right;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  margin: 0 0 20px;
+  font-size: 15px;
+  outline: none;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 5px;
+}
