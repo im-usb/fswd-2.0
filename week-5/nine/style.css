@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 10px;
+}
+
+.dropdown {
+  position: relative;
+  max-width: 160px;
+}
+
+.dropdown button {
+  padding: 10px;
+  border: none;
+  background-color: coral;
+  width: 100%;
+}
+
+.dropdown-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  display: none;
+  overflow-y: scroll;
+  max-height: 120px;
+}
+
+.dropdown-content a {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  text-decoration: none;
+  color: black;
+  background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
