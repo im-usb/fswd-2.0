@@ -75,6 +75,7 @@ main .container {
   padding: 0 60px;
   align-items: center;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .container .flexitem-1 {
