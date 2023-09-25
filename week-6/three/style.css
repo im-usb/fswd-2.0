@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #1b2124;
+  color: #fff;
+  width: 100%;
+  padding: 100px 50px 0;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Flex Items General Styling */
+
+.flexitem h3 {
+  font-size: 30px;
+  margin: 0 0 20px;
+  font-weight: 500;
+}
+
+.flexitem hr {
+  width: 80%;
+  min-width: 250px;
+  margin: 0 0 20px;
+  border: none;
+  border-bottom: 2px solid #c48e59;
+}
+.flexitem ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flexitem ul li {
+  margin: 0 0 20px;
+}
+
+/* Flex Item 1 Styling */
+
+.flexitem-1 {
+  max-width: 270px;
+}
+
+.flexitem-1 .logo {
+  width: 150px;
+  margin: 0 0 20px;
+}
+
+.flexitem-1 .email {
+  margin: 0 0 30px;
+}
+
+.flexitem-1 .email span {
+  font-weight: bold;
+}
+
+.flexitem-1 .iso-img {
+  width: 180px;
+}
+
+.flexitem-1 .iso-text {
+  font-weight: 600;
+}
+
+/* Flex Item 2 styling */
+
+.flexitem-2 {
+  width: 350px;
+}
+
+.flexitem-2 table tr td {
+  padding: 0 0 30px 0;
+}
+
+.flexitem-2 table tr .right {
+  padding-right: 80px;
+}
+
+.flexitem-2 table tr .left {
+  width: 120px;
+}
