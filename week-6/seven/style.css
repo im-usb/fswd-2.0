@@ -12,11 +12,11 @@ main {
   margin: 0 auto;
   padding: 0 15px;
   max-width: 1440px;
-  position: fixed;
-  width: 100%;
 }
 
 .container {
+  position: fixed;
+  max-width: 1440px;
   width: 100%;
   display: flex;
   justify-content: space-between;
