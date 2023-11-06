@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      main {
+        height: 100vh;
+        backdrop-filter: blur(100px);
+      }
+
+      .container {
+        width: 100%;
+        text-align: center;
+      }
+
+      .container h1 {
+        font-size: 3em;
+        text-decoration: underline;
+      }
+
+      img {
+        width: 350px;
+        transition: all 0.5s ease-in-out;
+      }
+
+      img:hover {
+        filter: grayscale(100%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Hover To Have A GrayScale Look.</h1>
+        <img
+          src="https://images.unsplash.com/photo-1698430185962-cbbdc7797f5a?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="wallpaper"
+        />
+      </div>
+    </main>
+  </body>
+</html>
