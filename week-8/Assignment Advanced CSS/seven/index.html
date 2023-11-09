@@ -39,7 +39,8 @@
         font-weight: 700;
         left: 50%;
         transform: translate(-50%, -50%);
-        animation: animate_button 0.8s ease-in-out 50ms infinite alternate;
+        animation: animate_button 0.6s cubic-bezier(0, 0, 1, 0) 0ms infinite
+          alternate;
       }
 
       @keyframes animate_button {
@@ -48,7 +49,7 @@
         }
 
         to {
-          top: 20px;
+          top: 0px;
         }
       }
     </style>
