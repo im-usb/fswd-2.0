@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .container {
+        position: relative;
+        width: 100%;
+      }
+
+      .redirect {
+        position: absolute;
+        border: none;
+        background-image: linear-gradient(to right, #4567dd, #3c33c2);
+        color: #fff;
+        font-size: 20px;
+        padding: 25px 45px;
+        border-radius: 15px;
+        font-weight: 700;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: animate_button 0.8s ease-in-out 50ms infinite alternate;
+      }
+
+      @keyframes animate_button {
+        from {
+          top: -20px;
+        }
+
+        to {
+          top: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <button class="redirect">Click Me To Visit PW Skills</button>
+      </div>
+    </main>
+  </body>
+</html>
