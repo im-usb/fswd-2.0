@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+header {
+  background-color: #242b2e;
+  padding: 10px 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  width: 300px;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.login-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0072e1;
+  padding: 8px 30px;
+  border-radius: 5px;
+}
+
+.fa-bars {
+  display: none;
+}
+
+/* hero section starts here */
+
+.hero {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.flex-container .left {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.flex-container .left h1 {
+  font-size: 28px;
+}
+
+.flex-container .left h1 span {
+  font-size: 58px;
+  color: #1893f7;
+  display: block;
+}
+
+.flex-container .left .card-issuers {
+  color: #1893f7;
+  font-weight: 600;
+}
+
+.flex-container .left img {
+  max-width: 355px;
+  width: 100%;
+}
+
+.flex-container .left .hero-desc {
+  color: #2c2c2c;
+}
+
+.flex-container .left .apply {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0093f7;
+  padding: 10px 45px;
+  border-radius: 5px;
+}
+
+.flex-container .right {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.flex-container .right video {
+  width: 100%;
+  /* padding: 0 15px; */
+}
+
+/* fee section starts here */
+
+.fees {
+  background-color: #000;
+  padding: 50px 0;
+}
+
+.fee-desc {
+  text-align: center;
+  color: #fff;
+}
+
+.fee-desc h2 {
+  font-size: 64px;
+}
+
+.fee-desc p {
+  font-size: 48px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-items {
+    display: none;
+  }
+
+  .login-btn {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+    color: #fff;
+  }
+
+  .flex-container {
+    flex-wrap: wrap;
+  }
+
+  .flex-container .left {
+    width: 100%;
+    padding: 0 15px 15px;
+  }
+
+  .flex-container .left h1 {
+    font-size: 24px;
+  }
+
+  .flex-container .left h1 span {
+    font-size: 40px;
+    color: #1893f7;
+    display: block;
+  }
+
+  .flex-container .right {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .fees {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+
+  .fee-desc {
+    text-align: center;
+    color: #000;
+  }
+
+  .fee-desc h2 {
+    font-size: 40px;
+  }
+
+  .fee-desc p {
+    font-size: 28px;
+    margin: 0;
+  }
+}
