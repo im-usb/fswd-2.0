@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        background-color: #1f1f1f;
+        color: #fff;
+      }
+
+      .container {
+        max-width: 1470px;
+        padding: 0 15px;
+        width: 100%;
+      }
+
+      .container table {
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+        border: solid 1px #fff;
+        border-collapse: collapse;
+      }
+
+      td,
+      th {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      @media screen and (max-width: 570px) {
+        .container table {
+          overflow-x: scroll;
+          display: block;
+        }
+
+        td {
+          white-space: nowrap;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Student Dashboard</h1>
+    </header>
+    <main>
+      <div class="container">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>john.doe@example.com</td>
+              <td>(555) 123-4567</td>
+            </tr>
+            <tr>
+              <td>Jane Smith</td>
+              <td>jane.smith@example.com</td>
+              <td>(555) 987-6543</td>
+            </tr>
+            <tr>
+              <td>Bob Johnson</td>
+              <td>bob.johnson@example.com</td>
+              <td>(555) 789-0123</td>
+            </tr>
+            <tr>
+              <td>Alice Brown</td>
+              <td>alice.brown@example.com</td>
+              <td>(555) 456-7890</td>
+            </tr>
+            <tr>
+              <td>Charlie Wilson</td>
+              <td>charlie.wilson@example.com</td>
+              <td>(555) 234-5678</td>
+            </tr>
+            <tr>
+              <td>Eva Davis</td>
+              <td>eva.davis@example.com</td>
+              <td>(555) 678-9012</td>
+            </tr>
+            <tr>
+              <td>Frank White</td>
+              <td>frank.white@example.com</td>
+              <td>(555) 345-6789</td>
+            </tr>
+            <tr>
+              <td>Gina Miller</td>
+              <td>gina.miller@example.com</td>
+              <td>(555) 901-2345</td>
+            </tr>
+            <tr>
+              <td>Dave Wilson</td>
+              <td>dave.wilson@example.com</td>
+              <td>(555) 123-7890</td>
+            </tr>
+            <tr>
+              <td>Helen Johnson</td>
+              <td>helen.johnson@example.com</td>
+              <td>(555) 678-1234</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
