@@ -20,6 +20,14 @@
           sans-serif;
       }
 
+      .container {
+        max-width: 1170px;
+        padding: 0 15px;
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+      }
+
       header {
         background-color: #242b2e;
         padding: 10px 30px;
@@ -73,23 +81,25 @@
   </head>
   <body>
     <header>
-      <nav>
-        <img
-          src="https://i.stack.imgur.com/qTSG1.png"
-          class="logo"
-          alt="logo"
-        />
-        <ul class="nav-items">
-          <li>Home</li>
-          <li>Blog</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-        <div>
-          <a href="#" class="login-btn">Login</a>
-          <a href="#"><i class="fa-solid fa-bars"></i></a>
-        </div>
-      </nav>
+      <div class="container">
+        <nav>
+          <img
+            src="https://i.stack.imgur.com/qTSG1.png"
+            class="logo"
+            alt="logo"
+          />
+          <ul class="nav-items">
+            <li>Home</li>
+            <li>Blog</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+          <div>
+            <a href="#" class="login-btn">Login</a>
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+          </div>
+        </nav>
+      </div>
     </header>
   </body>
 </html>
