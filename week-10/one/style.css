@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
