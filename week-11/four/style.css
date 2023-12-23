@@ -598,6 +598,18 @@ video {
   right: -10rem;
 }
 
+.-right-10 {
+  right: -2.5rem;
+}
+
+.-right-24 {
+  right: -6rem;
+}
+
+.-right-28 {
+  right: -7rem;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -822,6 +834,16 @@ video {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .pb-\[40px\] {
