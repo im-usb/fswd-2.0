@@ -582,52 +582,28 @@ video {
   position: relative;
 }
 
-.-right-24 {
-  right: -6rem;
-}
-
-.-left-10 {
-  left: -2.5rem;
-}
-
 .-left-5 {
   left: -1.25rem;
-}
-
-.-left-4 {
-  left: -1rem;
-}
-
-.-left-6 {
-  left: -1.5rem;
-}
-
-.-left-9 {
-  left: -2.25rem;
 }
 
 .-left-8 {
   left: -2rem;
 }
 
-.top-2 {
-  top: 0.5rem;
+.-left-9 {
+  left: -2.25rem;
 }
 
-.top-5 {
-  top: 1.25rem;
-}
-
-.top-4 {
-  top: 1rem;
+.-right-24 {
+  right: -6rem;
 }
 
 .top-3 {
   top: 0.75rem;
 }
 
-.top-6 {
-  top: 1.5rem;
+.top-5 {
+  top: 1.25rem;
 }
 
 .top-7 {
@@ -671,12 +647,24 @@ video {
   margin-top: -1rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mb-\[20px\] {
@@ -693,18 +681,6 @@ video {
 
 .mr-\[15px\] {
   margin-right: 15px;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -747,11 +723,6 @@ video {
   min-width: 250px;
 }
 
-.rotate-90 {
-  --tw-rotate: 90deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .-rotate-90 {
   --tw-rotate: -90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -773,14 +744,6 @@ video {
   align-items: center;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -795,6 +758,10 @@ video {
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-14 {
+  gap: 3.5rem;
 }
 
 .gap-3 {
@@ -881,8 +848,9 @@ video {
   padding: 2rem;
 }
 
-.p-1 {
-  padding: 0.25rem;
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .px-2 {
@@ -940,57 +908,16 @@ video {
   padding-bottom: 5px;
 }
 
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-}
-
 .pb-\[40px\] {
   padding-bottom: 40px;
 }
 
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pl-1 {
-  padding-left: 0.25rem;
+.pl-14 {
+  padding-left: 3.5rem;
 }
 
 .pl-2 {
   padding-left: 0.5rem;
-}
-
-.pl-14 {
-  padding-left: 3.5rem;
 }
 
 .text-center {
@@ -1000,6 +927,11 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-6xl {
@@ -1024,11 +956,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -1056,14 +983,28 @@ video {
   color: rgb(112 112 112 / var(--tw-text-opacity));
 }
 
+.text-\[\#999999\] {
+  --tw-text-opacity: 1;
+  color: rgb(153 153 153 / var(--tw-text-opacity));
+}
+
 .text-\[\#9ca3af\] {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+.text-\[\#FC5B3F\] {
+  --tw-text-opacity: 1;
+  color: rgb(252 91 63 / var(--tw-text-opacity));
+}
+
 .text-\[\#fc5b3f\] {
   --tw-text-opacity: 1;
   color: rgb(252 91 63 / var(--tw-text-opacity));
+}
+
+.text-\[\#ffffff80\] {
+  color: #ffffff80;
 }
 
 .text-\[\#ffffffb3\] {
@@ -1073,20 +1014,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#FC5B3F\] {
-  --tw-text-opacity: 1;
-  color: rgb(252 91 63 / var(--tw-text-opacity));
-}
-
-.text-\[\#999999\] {
-  --tw-text-opacity: 1;
-  color: rgb(153 153 153 / var(--tw-text-opacity));
-}
-
-.text-\[\#ffffff80\] {
-  color: #ffffff80;
 }
 
 .hover\:cursor-pointer:hover {
